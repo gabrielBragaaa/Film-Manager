@@ -8,6 +8,10 @@ public class Director {
         this.name = name;
     }
 
+    public Director(Director director){
+        this.name = director.getName();
+    }
+
     public String getName() {
         return name;
     }
@@ -15,4 +19,6 @@ public class Director {
     public void setName(String name) {
         this.name = name;
     }
+
+    
 }

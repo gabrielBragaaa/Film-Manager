@@ -8,6 +8,10 @@ public class Actor {
         this.name = name;
     }
 
+    public Actor(Actor actor){
+        this.name = actor.getName();
+    }
+
     public String getName() {
         return name;
     }
